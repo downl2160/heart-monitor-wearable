@@ -67,7 +67,7 @@ A smart health monitoring device that measures heart rate (BPM) and blood oxygen
 │   │   └── sample_heart_rate.csv
 │   └── notebooks/
 │       └── anomaly_detection.ipynb
-├── docs/                # Detailed specs and design notes
+├── library/                # Detailed specs and design notes
 │   └── technical_specifications.md
 └── .github/             # CI, workflows, issue templates
     └── ISSUE_TEMPLATE.md
