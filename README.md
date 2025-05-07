@@ -61,7 +61,9 @@ A smart health monitoring device that measures heart rate (BPM) and blood oxygen
 │   └── circuit_diagram.png
 ├── assets/              # Images, screenshots, demo results
 │   ├── result.jpg
+│   └── blynk_console1.png
 │   └── blynk_console.png
+│   └── demo.mov
 ├── ml/                  # Starter ML integration
 │   ├── data/
 │   │   └── sample_heart_rate.csv
