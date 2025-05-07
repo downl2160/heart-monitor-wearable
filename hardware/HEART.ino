@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL_po0BN51"
+#define BLYNK_TEMPLATE_ID "TMPL_ID"
 #define BLYNK_DEVICE_NAME "heart2"
-#define BLYNK_AUTH_TOKEN "erCTpNBOOevkJt35zWbIPnisFgjCR23f"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 #include <Wire.h>
 #include "MAX30100_PulseOximeter.h"
 #define BLYNK_PRINT Serial
@@ -13,8 +13,8 @@
 #define HHB 110
 
 char auth[] = BLYNK_AUTH_TOKEN;             // You should get Auth Token in the Blynk App.
-char ssid[] = "Siddhath's Pixel";                                     // Your WiFi credentials.
-char pass[] = "8654321@123";
+char ssid[] = "WIFI_NAME";                                     // Your WiFi credentials.
+char pass[] = "WIFI_PASSWORD";
  
 // Connections : SCL PIN - D1 , SDA PIN - D2 , INT PIN - D0
 PulseOximeter pox;
